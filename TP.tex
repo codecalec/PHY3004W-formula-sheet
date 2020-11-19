@@ -1,0 +1,65 @@
+\begin{align*}
+    pV &= K_{B}NT \comment{Ideal gas law}\\
+    pV &= nRT
+\end{align*}
+
+\begin{equation}
+    \bar{E_{\text{kin}}} = \frac{1}{2} f N K_{B}T \comment{Equipartition thm}
+\end{equation}
+
+\begin{equation}
+    \Delta U = Q + W \comment{1st Law}
+\end{equation}
+
+\begin{equation}
+    \frac{Q}{\Delta T} = \alpha A \d{T}{x}
+\end{equation}
+
+\begin{equation}
+    \ln(A!) = A\ln(A) - A \comment{Stirling approx.}
+\end{equation}
+
+\begin{equation}
+    S = K_{B} \ln \Omega \comment{entropy}
+\end{equation}
+
+\begin{equation}
+    S(U,V,N) = K_{B}N \left[ \ln \left( \frac{V}{N} \left( \frac{4\pi m U}{3\hbar^{2} N} \right)^{\frac{3}{2}}  \right) \right] \comment{Sackur-Tetrode}
+\end{equation}
+
+\begin{equation}
+    \frac{1}{T} \equiv \left[ \pd{S}{U} \right]_{N,V}
+\end{equation}
+
+\begin{equation}
+    p \equiv T\left[ \pd{S}{U} \right]_{U,N}
+\end{equation}
+
+\begin{equation}
+    \eta \equiv \frac{W}{Q_H} \comment{efficiency}
+\end{equation}
+
+\begin{align}
+    H &\equiv  U + pV \\
+    F &\equiv U - TS \\
+    G &\equiv H - TS
+\end{align}
+
+\begin{figure}
+    \centering
+    \begin{tikzpicture}[
+        scale=0.5,
+        trans/.style={thick,<->,shorten >=2pt,shorten <=2pt,>=stealth}
+    ]
+    \draw[trans] (0,0) node[below, left] {$p$} -- (5,5) node[above, right] {$V$};
+    \draw[trans] (5,0) node[below, right] {$T$} -- (0,5) node[above, left] {$S$};
+    \draw(0,2.5) node {$H$};
+    \draw(2.5,0) node {$G$};
+    \draw(5,2.5) node {$F$};
+    \draw(2.5,5) node {$U$};
+    \draw(1.5,2.5) node {$-$};
+    \draw(1.5,2.5) circle(0.4);
+    \draw(3.5,2.5) node {$+$};
+    \draw(3.5,2.5) circle(0.4);
+    \end{tikzpicture}
+\end{figure}
