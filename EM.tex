@@ -41,6 +41,16 @@
 	 \div{\vec{J}} = -\pd{\rho}{t}
 \end{equation*}
 
+\begin{equation*}
+    \frac{\sin \theta_{I}}{\sin \theta_{T}} = \frac{k_{T}}{k_{I}} = \frac{n_2}{n_1}
+\end{equation*}
+
+\begin{align*}
+    R &= \frac{I_{R}}{I_{I}} \\
+    T &= \frac{I_{T}}{I_{I}} \\
+    R + T &= 1
+\end{align*}
+
 \subsection{Special Relativity}
 \begin{align*}
     \beta &= \frac{v}{c} \\
@@ -78,14 +88,14 @@
     \end{pmatrix}\comment{proper velocity} \\
     p^{\mu} &= m\eta^{\mu} =
     \begin{pmatrix}
-        E/c \\
+        \gamma m c \\
         \vec{p}
     \end{pmatrix}\comment{4-momentum}
 \end{align*}
 
 \begin{align*}
     \eta_{\mu}\eta^{\mu} &= c^{2} \\
-    p_{\mu}p^{\mu} &= E^{2}/c^{2} - \vec{p}^{2} = m^{2}c^{2}\\
+    p_{\mu}p^{\mu} &= E^{2}/c^{2} - \vec{p}^{2} = m^{2}c^{2}
 \end{align*}
 
 \begin{equation*}
@@ -130,6 +140,10 @@
 
 \subsection{Radiation}
 
+\begin{equation}
+    \vec{a} \times (\vec{b} \times \vec{c}) = \vec{b}(\vec{a}\cdot\vec{c}) - \vec{c}(\vec{a}\cdot\vec{b})
+\end{equation}
+
 \begin{align*}
     \vec{E} &= \frac{q}{4\pi \epsilon}
     \Bigl(\frac{\hat{\vec{r}} - \vec{\beta}}{\gamma^{2} (1 - \vec{\beta}\cdot\hat{\vec{r}})^{3} |\vec{r}|^{2}} \\
@@ -147,8 +161,8 @@
 \end{equation*}
 
 \begin{align*}
-    \d{P}{\Omega} = \frac{\mu_{0} q^{2} a^{2}}{16 \pi^{2}c} \sin^{2}\theta \comment{non-rel. limit} \\
-    P = \frac{\mu_{0} q^{2} a^{2}}{6 \pi c}
+    \d{P}{\Omega} &= \frac{\mu_{0} q^{2} a^{2}}{16 \pi^{2}c} \sin^{2}\theta \comment{non-rel. limit} \\
+    P &= \frac{\mu_{0} q^{2} a^{2}}{6 \pi c}
 \end{align*}
 
 \begin{equation*}
